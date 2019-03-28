@@ -1,0 +1,17 @@
+﻿{
+  "configurations": [
+    {
+      "name": "MSVC-Debug-dynamic",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "cmakeCommandArgs": "--no-warn-unused-cli",
+      "buildCommandArgs": "-j${env.NUMBER_OF_PROCESSORS}",
+      "ctestCommandArgs": "-j${env.NUMBER_OF_PROCESSORS}",
+      "cmakeToolchain": "C:\\Users\\mnagy\\Source\\Repos\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "variables": []
+    }
+  ]
+}
